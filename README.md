@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-- [https://www.rust-lang.org/](Rust) 1.66.0
+- [Rust](https://www.rust-lang.org/) 1.66.0
 
 ## Run
 
