@@ -1,7 +1,7 @@
 use crate::utilities::code_computer;
 
-fn parse_input(input: &String) -> Vec<usize> {
-    let mut values = input.split(",");
+fn parse_input(input: &str) -> Vec<usize> {
+    let mut values = input.split(',');
 
     let mut output: Vec<usize> = Vec::new();
     loop {
@@ -16,7 +16,7 @@ fn parse_input(input: &String) -> Vec<usize> {
     output
 }
 
-pub fn solve_part_one(input: &String) -> usize {
+pub fn solve_part_one(input: &str) -> usize {
     let mut codes = parse_input(input);
 
     // Change initial values to 12 and 2!
@@ -28,7 +28,7 @@ pub fn solve_part_one(input: &String) -> usize {
     codes[0]
 }
 
-pub fn solve_part_two(input: &String) -> usize {
+pub fn solve_part_two(input: &str) -> usize {
     let codes = parse_input(input);
 
     let mut noun = 0;

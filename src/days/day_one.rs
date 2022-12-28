@@ -1,4 +1,4 @@
-fn parse_input(input: &String) -> Vec<usize> {
+fn parse_input(input: &str) -> Vec<usize> {
     let mut lines = input.lines();
 
     let mut output: Vec<usize> = Vec::new();
@@ -14,7 +14,7 @@ fn parse_input(input: &String) -> Vec<usize> {
     output
 }
 
-pub fn solve_part_one(input: &String) -> usize {
+pub fn solve_part_one(input: &str) -> usize {
     let masses = parse_input(input);
 
     let mut fuel = 0;
@@ -25,7 +25,7 @@ pub fn solve_part_one(input: &String) -> usize {
     fuel
 }
 
-pub fn solve_part_two(input: &String) -> usize {
+pub fn solve_part_two(input: &str) -> usize {
     let masses = parse_input(input);
 
     let mut total_fuel = 0;
