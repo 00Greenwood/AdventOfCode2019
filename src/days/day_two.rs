@@ -57,7 +57,7 @@ pub fn solve_part_two(input: &str) -> usize {
 
 #[cfg(test)]
 mod tests {
-    use crate::days::day_two::{solve_part_one, solve_part_two};
+    use super::*;
     use crate::utilities::load_input::load_input;
 
     #[test]
